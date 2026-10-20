@@ -6,9 +6,9 @@
  - 📱 Responsive design using Bootstrap
  - 📍 Contact form for inquiries
  ## Technologies Used
- - *Backend:* Django (Python)
- - *Frontend:* HTML, CSS, Bootstrap 5
- - *Database:* SQLite
+ - Backend: Django (Python)
+ - Frontend HTML, CSS, Bootstrap 5
+ - Database: SQLite
  ## How to Run
  ```bash
  # Create virtual environment
