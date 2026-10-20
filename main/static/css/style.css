@@ -1,0 +1,67 @@
+:root {
+    --page-bg: #b2d0edd5;
+    --brand-blue: #094478d6;
+    --action-green: #0ec524;
+    --alert-red: #ca3030;
+    --text-main: #0a0e12;
+}
+body {
+    background: var(--page-bg);
+    color: var(--text-main);
+    font-family: 'Segoe UI', sans-serif;
+}
+.card {
+    background-color: #2060ce93;
+    color: var(--text-main);
+    border: none;
+    box-shadow: 0 2px 8px rgba(136, 148, 193, 0.467);
+    transition: transform 0.2s ease;
+}
+.card:hover {
+    transform: translateY(-4px);
+}
+.navbar-brand {
+    font-weight: 700;
+}
+.navbar.bg-primary {
+    background-color: var(--brand-blue) !important;
+}
+.btn-primary {
+    --bs-btn-color: #ffffff;
+    --bs-btn-bg: var(--brand-blue);
+    --bs-btn-border-color: var(--brand-blue);
+    --bs-btn-hover-color: #ffffff;
+    --bs-btn-hover-bg: #123e64;
+    --bs-btn-hover-border-color: #123e64;
+    --bs-btn-active-color: #ffffff;
+    --bs-btn-active-bg: #123e64;
+    --bs-btn-active-border-color: #123e64;
+}
+.btn-success {
+    --bs-btn-color: #ffffff;
+    --bs-btn-bg: var(--action-green);
+    --bs-btn-border-color: var(--action-green);
+    --bs-btn-hover-color: #ffffff;
+    --bs-btn-hover-bg: #1d6c4b;
+    --bs-btn-hover-border-color: #1d6c4b;
+    --bs-btn-active-color: #ffffff;
+    --bs-btn-active-bg: #1d6c4b;
+    --bs-btn-active-border-color: #1d6c4b;
+}
+.btn-danger {
+    --bs-btn-color: #ffffff;
+    --bs-btn-bg: var(--alert-red);
+    --bs-btn-border-color: var(--alert-red);
+    --bs-btn-hover-color: #ffffff;
+    --bs-btn-hover-bg: #a93636;
+    --bs-btn-hover-border-color: #a93636;
+    --bs-btn-active-color: #ffffff;
+    --bs-btn-active-bg: #a93636;
+    --bs-btn-active-border-color: #a93636;
+}
+footer.bg-dark {
+    background-color: var(--brand-blue) !important;
+}
+footer .text-muted {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
